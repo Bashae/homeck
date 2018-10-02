@@ -1,11 +1,13 @@
 member {
     display: inline-block;
-    background: black;
-    height: 100px;
-    min-width: 100px;
+    width: 125px;
     color: #fff;
     text-align: center;
     margin-right: 5px;
+
+    ion-item {
+        width: 100px;
+    }
 
     h1 { 
         font-size: 18px;

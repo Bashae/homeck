@@ -9,7 +9,7 @@ export class InfoListComponent {
 
   constructor() {
     this.listItems = [
-      {"type": "Bills", "color": "green", "categories": ["cat", "dog", "bat"]},
+      {"type": "Bills", "color": "rgb(50, 205, 50)", "categories": ["cat", "dog", "bat"]},
       {"type": "Chores", "color": "red", "categories": ["cat", "dog", "bat"]},
       {"type": "Meals", "color": "yellow", "categories": ["cat", "dog", "bat"]},
       {"type": "Supplies", "color": "blue", "categories": ["cat", "dog", "bat"]}

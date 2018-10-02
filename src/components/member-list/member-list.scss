@@ -1,9 +1,10 @@
 member-list {
     display: flex;
+    height: 160px;
     width: 100%;
-    background: #ddd;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
+    box-shadow: 0 0 5px inset #aaa;
     min-height: 75px;
     padding: 5px;
+    overflow-x: scroll;
+    overflow-y: hidden;
 }
